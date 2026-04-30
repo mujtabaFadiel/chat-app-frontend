@@ -17,7 +17,7 @@ A real-time cross-platform messaging application built with **React Native** and
 
 
 
-<img width="1080" height="2400" alt="trashed-1779895581-Screenshot_2026-04-24-18-04-55-617_host exp exponent" src="https://github.com/user-attachments/assets/bc5b2c7b-84dc-4976-91b2-294ae9684777" />
+<img width="108" height="240" alt="trashed-1779895581-Screenshot_2026-04-24-18-04-55-617_host exp exponent" src="https://github.com/user-attachments/assets/bc5b2c7b-84dc-4976-91b2-294ae9684777" />
 <img width="1080" height="2400" alt="trashed-1779895574-Screenshot_2026-04-24-16-15-07-754_com miui gallery" src="https://github.com/user-attachments/assets/aba5731d-24ca-4061-8de6-4cb42fe90697" />
 <img width="1080" height="2400" alt="trashed-1779895569-Screenshot_2026-04-24-16-14-52-945_host exp exponent" src="https://github.com/user-attachments/assets/a798ed59-ad79-4e5f-a02b-e6969bfdeed9" />
 <img width="1080" height="2400" alt="trashed-1779895565-Screenshot_2026-04-24-16-00-10-295_com miui gallery" src="https://github.com/user-attachments/assets/8c9d1b3a-73a3-4475-b0f8-73e4489ca4de" />
