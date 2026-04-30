@@ -27,3 +27,7 @@ A real-time cross-platform messaging application built with **React Native** and
   <img width="150" alt="Wave Active Chat" src="https://github.com/user-attachments/assets/e7885adb-deca-4927-adab-f714121a8f15" />
   <img width="150" alt="Wave Login" src="https://github.com/user-attachments/assets/bc5b2c7b-84dc-4976-91b2-294ae9684777" />
 </div>
+
+
+https://github.com/user-attachments/assets/7d1eaa10-5bcc-4a34-897c-1a92c57bfffa
+
