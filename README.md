@@ -1,50 +1,27 @@
-# Welcome to your Expo app 👋
+# Chat App - Mobile Client
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A real-time cross-platform messaging application built with **React Native** and **Expo**.
 
-## Get started
+## Tech Stack
+- **Frontend:** React Native (Expo)
+- **State Management:** React Hooks (useState, useEffect)
+- **Real-time:** Socket.io-client[cite: 1]
+- **Navigation:** Expo Router
+- **Storage:** AsyncStorage
 
-1. Install dependencies
+##  Key Features
+- **Real-time Messaging:** Instant message delivery using WebSockets.
+- **Optimistic UI:** Messages appear instantly before server confirmation.
+- **Secure Auth:** JWT-based persistent login.[cite: 1]
+- **Private Rooms:** Isolated chat sessions for every conversation.
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+<img width="1080" height="2400" alt="trashed-1779895581-Screenshot_2026-04-24-18-04-55-617_host exp exponent" src="https://github.com/user-attachments/assets/bc5b2c7b-84dc-4976-91b2-294ae9684777" />
+<img width="1080" height="2400" alt="trashed-1779895574-Screenshot_2026-04-24-16-15-07-754_com miui gallery" src="https://github.com/user-attachments/assets/aba5731d-24ca-4061-8de6-4cb42fe90697" />
+<img width="1080" height="2400" alt="trashed-1779895569-Screenshot_2026-04-24-16-14-52-945_host exp exponent" src="https://github.com/user-attachments/assets/a798ed59-ad79-4e5f-a02b-e6969bfdeed9" />
+<img width="1080" height="2400" alt="trashed-1779895565-Screenshot_2026-04-24-16-00-10-295_com miui gallery" src="https://github.com/user-attachments/assets/8c9d1b3a-73a3-4475-b0f8-73e4489ca4de" />
+<img width="1080" height="2400" alt="trashed-1779895559-Screenshot_2026-04-24-16-00-08-430_com miui gallery" src="https://github.com/user-attachments/assets/84226456-c650-498b-8899-18ae2372804a" />
+<img width="1080" height="2400" alt="trashed-1779892439-Screenshot_2026-04-27-18-33-52-522_host exp exponent" src="https://github.com/user-attachments/assets/e7885adb-deca-4927-adab-f714121a8f15" />
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
