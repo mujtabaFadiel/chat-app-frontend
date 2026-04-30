@@ -17,7 +17,7 @@ A real-time cross-platform messaging application built with **React Native** and
 - **Private Rooms:** Isolated chat sessions for every conversation.
 
 
-
+https://github.com/user-attachments/assets/7d1eaa10-5bcc-4a34-897c-1a92c57bfffa
 <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
   <img width="150" alt="Wave UI" src="https://github.com/user-attachments/assets/84226456-c650-498b-8899-18ae2372804a" />
   <img width="150" alt="Wave Messages" src="https://github.com/user-attachments/assets/8c9d1b3a-73a3-4475-b0f8-73e4489ca4de" />
@@ -29,5 +29,5 @@ A real-time cross-platform messaging application built with **React Native** and
 </div>
 
 
-https://github.com/user-attachments/assets/7d1eaa10-5bcc-4a34-897c-1a92c57bfffa
+
 
