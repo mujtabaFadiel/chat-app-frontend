@@ -1,24 +1,31 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { Stack } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
-import 'react-native-reanimated';
+import { StyleSheet, Text, View } from 'react-native'
+import React, { useEffect } from 'react'
+import { Stack } from 'expo-router'
+import { connectSocket, socket } from '@/api/socket';
 
-import { useColorScheme } from '@/hooks/use-color-scheme';
+const RootLayout = () => {
+  useEffect(() => {~~
+    connectSocket();
 
-export const unstable_settings = {
-  anchor: '(tabs)',
-};
-
-export default function RootLayout() {
-  const colorScheme = useColorScheme();
-
+    return () => {
+        socket.disconnect();
+    };
+}, []);
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
-      </Stack>
-      <StatusBar style="auto" />
-    </ThemeProvider>
-  );
+    <Stack screenOptions={{ headerShown: false }}>
+      <Stack.Screen name='(main)/Profile' options={{ presentation: 'modal' }} />
+    </Stack>
+  )
 }
+
+const _layout = () => {
+  return (
+    <Stack screenOptions={{ headerShown: false }}>
+      <RootLayout />
+    </Stack>
+  )
+}
+
+export default _layout
+
+const styles = StyleSheet.create({})
