@@ -1,3 +1,4 @@
+<img width="1080" height="2400" alt="trashed-1779895591-Screenshot_2026-04-26-12-21-31-497_host exp exponent" src="https://github.com/user-attachments/assets/9749b680-73b7-497e-b855-746b088bc428" />
 # Chat App - Mobile Client
 
 A real-time cross-platform messaging application built with **React Native** and **Expo**.
